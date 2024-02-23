@@ -55,6 +55,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-02-22 20:55:01 +0100",
       "minecraft:sunflower_plains": "2024-02-19 18:44:29 +0100",
       "minecraft:birch_forest": "2024-02-18 14:58:56 +0100",
       "minecraft:bamboo_jungle": "2024-02-18 16:32:06 +0100",
@@ -68,6 +69,7 @@
       "minecraft:swamp": "2024-02-19 18:58:04 +0100",
       "minecraft:cold_ocean": "2024-02-19 18:36:02 +0100",
       "minecraft:forest": "2024-02-18 13:23:07 +0100",
+      "minecraft:lush_caves": "2024-02-22 17:48:31 +0100",
       "minecraft:deep_cold_ocean": "2024-02-21 11:55:36 +0100",
       "minecraft:windswept_forest": "2024-02-19 18:57:46 +0100",
       "minecraft:jungle": "2024-02-18 16:31:17 +0100",
@@ -1493,6 +1495,7 @@
       "cooked_beef": "2024-02-18 15:57:05 +0100",
       "baked_potato": "2024-02-20 22:17:43 +0100",
       "apple": "2024-02-18 15:05:01 +0100",
+      "potato": "2024-02-22 19:51:22 +0100",
       "mutton": "2024-02-18 15:41:37 +0100",
       "bread": "2024-02-18 20:48:44 +0100",
       "rotten_flesh": "2024-02-18 15:14:19 +0100",
@@ -2225,6 +2228,7 @@
       "minecraft:piglin_brute": "2024-02-21 15:34:44 +0100",
       "minecraft:creeper": "2024-02-21 12:56:34 +0100",
       "minecraft:slime": "2024-02-19 19:04:04 +0100",
+      "minecraft:phantom": "2024-02-22 19:19:59 +0100",
       "minecraft:wither_skeleton": "2024-02-20 17:05:23 +0100",
       "minecraft:husk": "2024-02-19 18:47:27 +0100",
       "minecraft:cave_spider": "2024-02-21 11:34:40 +0100",
@@ -9276,21 +9280,981 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-02-21 21:35:49 +0100"
-    },
-    "done": true
-  },
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2024-02-21 21:34:42 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-02-21 21:35:49 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2024-02-21 21:35:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-02-22 16:13:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-02-22 16:15:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "createoreexcavation:recipes/misc/netherite_drill_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "createdeco:recipes/misc/netherite_nugget_from_netherite_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-02-22 16:15:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-02-22 16:16:17 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/snow_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/spider_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pumpkin_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/emerald_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/netherite_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/diamond_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/dragon_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cactus_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/coal_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/fox_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/nether_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/villager_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ocelot_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bookshelf_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/blaze_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/chicken_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/iron_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/skeleton_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/magma_cube_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sponge_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/creeper_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/melon_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cake_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/enderman_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wither_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/gold_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/redstone_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/squid_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sandstone_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cow_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/lapis_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/horse_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pig_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sheep_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/hay_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ghast_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/end_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/quartz_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bat_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wolf_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/standard_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bee_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/iron_golem_smithing_netherite": {
+    "criteria": {
+      "has_netherite_tier_upgrade": "2024-02-22 16:20:01 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/chicken_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/blaze_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/snow_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/diamond_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pig_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/standard_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/quartz_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wolf_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wither_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/villager_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/horse_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/hay_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sandstone_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/gold_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sponge_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/spider_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/creeper_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/dragon_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/coal_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/skeleton_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sheep_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/fox_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/squid_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cow_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pumpkin_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cactus_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/lapis_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bat_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bookshelf_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ghast_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ocelot_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/netherite_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/nether_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cake_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/enderman_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/emerald_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/iron_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/end_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/iron_golem_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/redstone_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bee_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/magma_cube_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/melon_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-02-22 16:22:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-02-22 17:01:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-02-22 17:01:20 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_mushroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/willow_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/stalagnate_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/wart_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_sakura_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_jellyshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/rubeus_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/anchor_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/mushroom_fir_hanging_sign": {
+    "criteria": {
+      "has_chain": "2024-02-22 17:38:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-22 17:47:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-22 17:47:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-22 17:47:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-22 17:47:41 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-02-22 19:17:37 +0100"
+    },
+    "done": true
+  },
+  "create:potato_cannon": {
+    "criteria": {
+      "0": "2024-02-22 19:41:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-02-22 19:17:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-02-22 20:31:07 +0100"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/glow_goop": {
+    "criteria": {
+      "has_glow_berries": "2024-02-22 19:23:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "smallships:recipes/combat/cannon": {
+    "criteria": {
+      "has_ship": "2024-02-22 20:27:48 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/beetroot_soup_from_coconut_husk": {
+    "criteria": {
+      "has_beetroot": "2024-02-22 19:17:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-02-22 20:31:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-02-22 19:17:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-02-22 19:17:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-02-22 20:31:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-02-22 19:50:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-02-22 19:17:31 +0100"
+    },
+    "done": true
+  },
+  "biomemakeover:biomemakeover/create_peat_farmland": {
+    "criteria": {
+      "create_peat": "2024-02-22 21:24:14 +0100"
     },
     "done": true
   },

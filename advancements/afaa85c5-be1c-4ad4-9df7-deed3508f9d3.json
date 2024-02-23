@@ -55,11 +55,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-02-22 20:55:01 +0100",
       "minecraft:birch_forest": "2024-02-18 19:49:45 +0100",
       "minecraft:beach": "2024-02-20 18:05:08 +0100",
       "minecraft:river": "2024-02-18 20:01:53 +0100",
+      "minecraft:dripstone_caves": "2024-02-22 17:49:03 +0100",
+      "minecraft:cold_ocean": "2024-02-22 20:40:01 +0100",
       "minecraft:forest": "2024-02-18 19:45:41 +0100",
+      "minecraft:lush_caves": "2024-02-22 17:48:35 +0100",
+      "minecraft:deep_cold_ocean": "2024-02-22 20:40:32 +0100",
+      "minecraft:ocean": "2024-02-22 20:39:55 +0100",
+      "minecraft:old_growth_birch_forest": "2024-02-22 17:53:44 +0100",
       "minecraft:meadow": "2024-02-20 18:04:49 +0100",
+      "minecraft:savanna": "2024-02-22 17:59:10 +0100",
       "minecraft:plains": "2024-02-18 20:03:09 +0100"
     },
     "done": false
@@ -1471,6 +1479,7 @@
       "minecraft:phantom": "2024-02-20 23:55:01 +0100",
       "minecraft:witch": "2024-02-21 17:20:07 +0100",
       "minecraft:wither_skeleton": "2024-02-21 15:49:22 +0100",
+      "minecraft:husk": "2024-02-22 18:57:38 +0100",
       "minecraft:piglin": "2024-02-20 22:05:39 +0100",
       "minecraft:enderman": "2024-02-21 14:07:43 +0100",
       "minecraft:zombie": "2024-02-18 20:28:11 +0100"
@@ -10100,9 +10109,57 @@
     },
     "done": true
   },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2024-02-21 21:21:36 +0100"
+    },
+    "done": true
+  },
   "betterend:recipes/misc/blossom_berry_jelly_potion": {
     "criteria": {
       "has_potion": "2024-02-21 21:22:45 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-02-21 21:22:45 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-02-21 21:22:45 +0100"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-02-21 21:24:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-02-21 21:24:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-02-21 21:24:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-02-21 21:24:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-02-21 21:34:43 +0100"
     },
     "done": true
   },
@@ -10124,51 +10181,513 @@
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
     "criteria": {
-      "in_stronghold": "2024-02-21 21:34:43 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "naturalist:recipes/naturalist/bug_net": {
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
     "criteria": {
-      "has_bamboo": "2024-02-21 21:24:02 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
     "criteria": {
-      "has_potion": "2024-02-21 21:22:45 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
     "criteria": {
-      "has_potion": "2024-02-21 21:22:45 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "dungeons_arise:find_bathhouse": {
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
     "criteria": {
-      "location0": "2024-02-21 21:21:36 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
     "criteria": {
-      "has_bamboo": "2024-02-21 21:24:02 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_block": {
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
     "criteria": {
-      "has_bamboo": "2024-02-21 21:24:02 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/scaffolding": {
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
     "criteria": {
-      "has_bamboo": "2024-02-21 21:24:02 +0100"
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-02-22 17:34:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/furnace_minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2024-02-22 17:35:07 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/minecart_from_contraption_cart": {
+    "criteria": {
+      "has_item": "2024-02-22 17:35:07 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2024-02-22 17:43:21 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2024-02-22 17:43:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-02-22 17:53:31 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_block_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_pillar_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-02-22 17:53:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-02-22 17:54:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-02-22 17:54:38 +0100"
+    },
+    "done": true
+  },
+  "createoreexcavation:recipes/misc/vein_finder": {
+    "criteria": {
+      "diamond": "2024-02-22 17:54:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-02-22 17:55:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-02-22 17:55:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-02-22 18:59:04 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_the_recipe": "2024-02-22 18:59:11 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/speedometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2024-02-22 18:59:13 +0100"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2024-02-22 18:59:14 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/veridium_pillar_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_bricks_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_bricks_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "createdeco:recipes/building_blocks/verdant_bricks": {
+    "criteria": {
+      "has_item": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-02-22 20:06:43 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-02-22 20:21:41 +0100"
+    },
+    "done": true
+  },
+  "smallships:recipes/combat/cannon": {
+    "criteria": {
+      "has_ship": "2024-02-22 20:25:07 +0100"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_bass": {
+    "criteria": {
+      "has_bass": "2024-02-22 20:38:49 +0100"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2024-02-22 21:50:26 +0100"
     },
     "done": true
   },
