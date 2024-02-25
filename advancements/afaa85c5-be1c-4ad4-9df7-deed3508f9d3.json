@@ -1486,6 +1486,7 @@
       "minecraft:cave_spider": "2024-02-23 16:45:15 +0100",
       "minecraft:piglin": "2024-02-20 22:05:39 +0100",
       "minecraft:enderman": "2024-02-21 14:07:43 +0100",
+      "minecraft:silverfish": "2024-02-24 12:17:33 +0100",
       "minecraft:zombie": "2024-02-18 20:28:11 +0100",
       "minecraft:drowned": "2024-02-23 20:52:40 +0100"
     },
@@ -10810,57 +10811,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
-    "criteria": {
-      "has_item": "2024-02-23 21:36:19 +0100"
-    },
-    "done": true
-  },
-  "create:glass_pipe": {
-    "criteria": {
-      "0": "2024-02-23 21:31:08 +0100"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/spout": {
-    "criteria": {
-      "has_item": "2024-02-23 21:36:19 +0100"
-    },
-    "done": true
-  },
-  "create:mechanical_mixer": {
-    "criteria": {
-      "0": "2024-02-23 22:05:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2024-02-23 21:02:38 +0100"
-    },
-    "done": true
-  },
-  "create:spout": {
-    "criteria": {
-      "0": "2024-02-23 21:40:05 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2024-02-23 20:40:40 +0100"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/yellow_copper_lamp": {
     "criteria": {
       "has_item": "2024-02-23 19:57:15 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flower_banner_pattern": {
-    "criteria": {
-      "has_oxeye_daisy": "2024-02-23 21:02:38 +0100"
     },
     "done": true
   },
@@ -10870,45 +10823,15 @@
     },
     "done": true
   },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2024-02-23 20:12:47 +0100"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/copper_bars_overlay": {
     "criteria": {
       "has_item": "2024-02-23 19:57:15 +0100"
     },
     "done": true
   },
-  "create:steam_engine": {
-    "criteria": {
-      "0": "2024-02-23 20:13:19 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2024-02-23 21:01:14 +0100"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/copper_sheet_metal": {
     "criteria": {
       "has_item": "2024-02-23 19:57:15 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2024-02-23 20:24:35 +0100"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/copper_door": {
-    "criteria": {
-      "has_item": "2024-02-23 21:36:19 +0100"
     },
     "done": true
   },
@@ -10924,18 +10847,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/mysterious_cuckoo_clock": {
-    "criteria": {
-      "has_item": "2024-02-23 21:29:36 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2024-02-23 20:40:40 +0100"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/copper_catwalk_forge": {
     "criteria": {
       "has_item": "2024-02-23 19:57:15 +0100"
@@ -10948,9 +10859,57 @@
     },
     "done": true
   },
+  "createdeco:recipes/decorations/green_copper_lamp": {
+    "criteria": {
+      "has_item": "2024-02-23 19:57:15 +0100"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2024-02-23 20:12:47 +0100"
+    },
+    "done": true
+  },
+  "create:water_supply": {
+    "criteria": {
+      "0": "2024-02-23 20:13:16 +0100"
+    },
+    "done": true
+  },
+  "create:steam_engine": {
+    "criteria": {
+      "0": "2024-02-23 20:13:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-02-23 20:24:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2024-02-23 20:24:35 +0100"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_house": {
+    "criteria": {
+      "location0": "2024-02-23 20:40:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-02-23 20:40:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-02-23 20:40:40 +0100"
     },
     "done": true
   },
@@ -10966,9 +10925,9 @@
     },
     "done": true
   },
-  "dungeons_arise:find_mushroom_house": {
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
-      "location0": "2024-02-23 20:40:08 +0100"
+      "has_cornflower": "2024-02-23 21:01:14 +0100"
     },
     "done": true
   },
@@ -10978,33 +10937,15 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/item_drain": {
+  "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
-      "has_item": "2024-02-23 21:36:19 +0100"
+      "has_poppy": "2024-02-23 21:02:38 +0100"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/green_copper_lamp": {
+  "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
-      "has_item": "2024-02-23 19:57:15 +0100"
-    },
-    "done": true
-  },
-  "create:cuckoo_clock": {
-    "criteria": {
-      "0": "2024-02-23 21:55:32 +0100"
-    },
-    "done": true
-  },
-  "create:drain": {
-    "criteria": {
-      "0": "2024-02-23 22:12:59 +0100"
-    },
-    "done": true
-  },
-  "create:copper_casing": {
-    "criteria": {
-      "0": "2024-02-23 21:36:16 +0100"
+      "has_oxeye_daisy": "2024-02-23 21:02:38 +0100"
     },
     "done": true
   },
@@ -11014,9 +10955,159 @@
     },
     "done": true
   },
-  "create:water_supply": {
+  "create:recipes/misc/crafting/kinetics/mysterious_cuckoo_clock": {
     "criteria": {
-      "0": "2024-02-23 20:13:16 +0100"
+      "has_item": "2024-02-23 21:29:36 +0100"
+    },
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2024-02-23 21:31:08 +0100"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2024-02-23 21:36:16 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
+    "criteria": {
+      "has_item": "2024-02-23 21:36:19 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2024-02-23 21:36:19 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2024-02-23 21:36:19 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2024-02-23 21:36:19 +0100"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2024-02-23 21:40:05 +0100"
+    },
+    "done": true
+  },
+  "create:cuckoo_clock": {
+    "criteria": {
+      "0": "2024-02-23 21:55:32 +0100"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2024-02-23 22:05:43 +0100"
+    },
+    "done": true
+  },
+  "create:drain": {
+    "criteria": {
+      "0": "2024-02-23 22:12:59 +0100"
+    },
+    "done": true
+  },
+  "the_bumblezone:combs_and_wax/comb_cutter_tool": {
+    "criteria": {
+      "comb_cutter_tool": "2024-02-24 13:01:45 +0100"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2024-02-24 14:28:18 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots": {
+    "criteria": {
+      "has_item": "2024-02-24 15:09:11 +0100"
+    },
+    "done": true
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2024-02-24 15:11:09 +0100"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2024-02-24 15:14:26 +0100"
+    },
+    "done": true
+  },
+  "create:linked_controller": {
+    "criteria": {
+      "0": "2024-02-24 15:43:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-02-24 15:48:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-02-24 15:48:46 +0100"
+    },
+    "done": true
+  },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2024-02-24 17:40:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-02-24 18:07:48 +0100"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_hull": {
+    "criteria": {
+      "has_item": "2024-02-24 17:35:37 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2024-02-24 17:35:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-02-24 18:07:48 +0100"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brass_hull_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-02-24 17:35:38 +0100"
+    },
+    "done": true
+  },
+  "create:steam_whistle": {
+    "criteria": {
+      "0": "2024-02-24 17:16:22 +0100"
     },
     "done": true
   },
