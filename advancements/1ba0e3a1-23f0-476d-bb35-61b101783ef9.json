@@ -1803,6 +1803,7 @@
       "minecraft:husk": "2024-02-22 18:58:24 +0100",
       "minecraft:cave_spider": "2024-02-21 14:37:09 +0100",
       "minecraft:enderman": "2024-02-24 16:46:08 +0100",
+      "minecraft:silverfish": "2024-02-25 18:48:58 +0100",
       "minecraft:zombie": "2024-02-20 19:27:09 +0100",
       "minecraft:drowned": "2024-02-21 21:27:31 +0100"
     },
@@ -7826,7 +7827,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:sheep": "2024-02-23 15:14:53 +0100"
+      "minecraft:sheep": "2024-02-23 15:14:53 +0100",
+      "minecraft:cow": "2024-02-25 19:06:18 +0100"
     },
     "done": false
   },
@@ -8391,6 +8393,48 @@
   "betternether:recipes/misc/cincinnasite_ingot_from_shard_smelting": {
     "criteria": {
       "has_item.betternether.cincinnasite": "2024-02-24 18:32:09 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/stripes_to_leather": {
+    "criteria": {
+      "has_leather_stripe": "2024-02-25 19:07:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-02-25 19:06:50 +0100"
     },
     "done": true
   },

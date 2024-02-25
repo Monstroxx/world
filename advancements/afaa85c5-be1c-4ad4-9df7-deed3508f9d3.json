@@ -57,17 +57,20 @@
     "criteria": {
       "minecraft:taiga": "2024-02-22 20:55:01 +0100",
       "minecraft:birch_forest": "2024-02-18 19:49:45 +0100",
+      "minecraft:windswept_hills": "2024-02-25 19:03:04 +0100",
       "minecraft:bamboo_jungle": "2024-02-23 17:56:43 +0100",
       "minecraft:beach": "2024-02-20 18:05:08 +0100",
       "minecraft:sparse_jungle": "2024-02-23 17:53:48 +0100",
       "minecraft:river": "2024-02-18 20:01:53 +0100",
       "minecraft:dripstone_caves": "2024-02-22 17:49:03 +0100",
+      "minecraft:swamp": "2024-02-25 19:04:21 +0100",
       "minecraft:cold_ocean": "2024-02-22 20:40:01 +0100",
       "minecraft:forest": "2024-02-18 19:45:41 +0100",
       "minecraft:lush_caves": "2024-02-22 17:48:35 +0100",
       "minecraft:deep_cold_ocean": "2024-02-22 20:40:32 +0100",
       "minecraft:ocean": "2024-02-22 20:39:55 +0100",
       "minecraft:jungle": "2024-02-23 18:02:15 +0100",
+      "minecraft:flower_forest": "2024-02-25 18:57:19 +0100",
       "minecraft:old_growth_birch_forest": "2024-02-22 17:53:44 +0100",
       "minecraft:meadow": "2024-02-20 18:04:49 +0100",
       "minecraft:savanna": "2024-02-22 17:59:10 +0100",
@@ -1479,7 +1482,9 @@
       "minecraft:spider": "2024-02-18 19:49:21 +0100",
       "minecraft:piglin_brute": "2024-02-21 15:34:44 +0100",
       "minecraft:creeper": "2024-02-20 15:33:42 +0100",
+      "minecraft:slime": "2024-02-25 19:09:26 +0100",
       "minecraft:phantom": "2024-02-20 23:55:01 +0100",
+      "minecraft:zombified_piglin": "2024-02-25 15:50:14 +0100",
       "minecraft:witch": "2024-02-21 17:20:07 +0100",
       "minecraft:wither_skeleton": "2024-02-21 15:49:22 +0100",
       "minecraft:husk": "2024-02-22 18:57:38 +0100",
@@ -11111,6 +11116,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-02-25 11:34:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-02-25 11:34:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2024-02-25 11:50:11 +0100"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_limestone_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-02-25 11:52:20 +0100"
@@ -11159,12 +11182,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-02-25 11:34:05 +0100"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_limestone_bricks_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-02-25 11:52:20 +0100"
@@ -11192,12 +11209,6 @@
   "create:recipes/building_blocks/limestone_pillar_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-02-25 11:52:20 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-02-25 11:34:05 +0100"
     },
     "done": true
   },
@@ -11243,9 +11254,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_copper": {
+  "create:lava_wheel_00000": {
     "criteria": {
-      "has_raw_copper_block": "2024-02-25 11:50:11 +0100"
+      "0": "2024-02-25 15:20:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2024-02-25 15:39:10 +0100"
+    },
+    "done": true
+  },
+  "create:hose_pulley_lava": {
+    "criteria": {
+      "0": "2024-02-25 15:42:34 +0100"
+    },
+    "done": true
+  },
+  "create:hose_pulley": {
+    "criteria": {
+      "0": "2024-02-25 15:42:34 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/bn_brown_mushroom": {
+    "criteria": {
+      "has_wall_mushroom_brown": "2024-02-25 16:04:52 +0100"
+    },
+    "done": true
+  },
+  "biomemakeover:biomemakeover/witch_hat": {
+    "criteria": {
+      "wear_hat": "2024-02-25 18:06:01 +0100"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2024-02-25 18:44:35 +0100"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experimental": {
+    "criteria": {
+      "builtin": "2024-02-25 18:44:38 +0100"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "builtin": "2024-02-25 18:46:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2024-02-25 18:57:28 +0100"
+    },
+    "done": true
+  },
+  "biomemakeover:biomemakeover/enter_swamp": {
+    "criteria": {
+      "enter_swamp2": "2024-02-25 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "biomemakeover:biomemakeover/root": {
+    "criteria": {
+      "enter_swamp": "2024-02-25 19:04:21 +0100"
     },
     "done": true
   },
