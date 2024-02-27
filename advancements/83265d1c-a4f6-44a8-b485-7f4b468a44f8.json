@@ -2238,7 +2238,8 @@
       "minecraft:piglin": "2024-02-20 21:41:16 +0100",
       "minecraft:enderman": "2024-02-21 14:20:26 +0100",
       "minecraft:silverfish": "2024-02-24 13:30:05 +0100",
-      "minecraft:zombie": "2024-02-18 15:14:05 +0100"
+      "minecraft:zombie": "2024-02-18 15:14:05 +0100",
+      "minecraft:zombie_villager": "2024-02-26 20:08:43 +0100"
     },
     "done": false
   },
@@ -11011,6 +11012,295 @@
   "create:crusher_maxed_0000": {
     "criteria": {
       "0": "2024-02-25 20:35:01 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_carved_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pillar": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_roof_tile_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_tile_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_stairs_from_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pedestal": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_wall": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_bricks": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/chest_of_drawers": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_roof_tile_cincinnasite": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2024-02-26 19:36:27 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:city": {
+    "criteria": {
+      "ncity": "2024-02-26 19:00:10 +0100"
+    },
+    "done": true
+  },
+  "the_bumblezone:biomes/discover_all_biomes": {
+    "criteria": {
+      "sugar_water_floor": "2024-02-26 19:55:42 +0100",
+      "pollinated_fields": "2024-02-26 19:46:38 +0100"
+    },
+    "done": false
+  },
+  "the_bumblezone:teleportation/teleport_to_bumblezone_pearl": {
+    "criteria": {
+      "teleport_to_bumblezone_pearl": "2024-02-26 19:46:31 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/cincinnasite_forged_cincinnasite_plate": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "biomemakeover:biomemakeover/witch_hat": {
+    "criteria": {
+      "wear_hat": "2024-02-26 19:27:01 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_cincinnasite_stairs": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_slab_from_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/cincinnasite_brick_plate": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_small_from_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_cin_door": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/cincinnasite_ingot": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_wall_from_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/netherrack_stalactite_netherrack": {
+    "criteria": {
+      "has_netherrack_stalactite": "2024-02-26 18:56:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_tile_small": {
+    "criteria": {
+      "has_nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_wall_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_slab_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_tile_small_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_brick_tile_large": "2024-02-26 19:15:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_cincinnasite_slab": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_carved": {
+    "criteria": {
+      "has_cincinnasite_forged": "2024-02-26 19:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-02-26 18:54:19 +0100"
     },
     "done": true
   },

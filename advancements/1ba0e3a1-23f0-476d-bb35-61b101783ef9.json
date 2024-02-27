@@ -1798,6 +1798,7 @@
     "criteria": {
       "minecraft:pillager": "2024-02-24 16:08:05 +0100",
       "minecraft:skeleton": "2024-02-20 20:13:52 +0100",
+      "minecraft:magma_cube": "2024-02-26 19:10:45 +0100",
       "minecraft:spider": "2024-02-20 19:26:21 +0100",
       "minecraft:creeper": "2024-02-20 21:23:58 +0100",
       "minecraft:husk": "2024-02-22 18:58:24 +0100",
@@ -8396,12 +8397,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/stripes_to_leather": {
-    "criteria": {
-      "has_leather_stripe": "2024-02-25 19:07:13 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2024-02-25 19:06:50 +0100"
@@ -8435,6 +8430,261 @@
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2024-02-25 19:06:50 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/stripes_to_leather": {
+    "criteria": {
+      "has_leather_stripe": "2024-02-25 19:07:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/mushroom_fir_trimmed_chest": {
+    "criteria": {
+      "has_mushroom_fir_chest": "2024-02-26 17:38:22 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/cincinnasite_button": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:cincinnasite_ore": {
+    "criteria": {
+      "cincinnasite_ore": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_ruby_slab_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_ruby_block": "2024-02-26 19:05:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_from_ingot": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_boots": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_bars": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_fire_bowl_soul": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_leggings": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2024-02-26 20:01:53 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_ruby_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betternether.nether_ruby_block": "2024-02-26 19:05:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_framed": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-02-26 19:49:32 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/nether_ruby_leggings": {
+    "criteria": {
+      "has_nether_ruby": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2024-02-26 19:47:44 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_helmet": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:city": {
+    "criteria": {
+      "ncity": "2024-02-26 19:00:12 +0100"
+    },
+    "done": true
+  },
+  "the_bumblezone:biomes/discover_all_biomes": {
+    "criteria": {
+      "sugar_water_floor": "2024-02-26 19:54:34 +0100",
+      "hive_pillar": "2024-02-26 19:51:07 +0100",
+      "hive_wall": "2024-02-26 19:55:31 +0100",
+      "pollinated_fields": "2024-02-26 19:46:55 +0100"
+    },
+    "done": false
+  },
+  "betternether:recipes/tools/cincinnasite_chestplate": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/nether_ruby_helmet": {
+    "criteria": {
+      "has_nether_ruby": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/nether_ruby_boots": {
+    "criteria": {
+      "has_nether_ruby": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "betternether:ruby_ore": {
+    "criteria": {
+      "ruby_ore": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_frame": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/netherite_fire_bowl": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_fire_bowl": "2024-02-26 18:54:24 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/brewing/nether_brewing_stand": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-02-26 19:55:45 +0100"
+    },
+    "done": true
+  },
+  "the_bumblezone:effects/bee_hit_wrath_of_the_hive": {
+    "criteria": {
+      "bee_hit_wrath_of_the_hive": "2024-02-26 20:03:07 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_lantern_small": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_ruby_block_nether_ruby_stairs": {
+    "criteria": {
+      "has_nether_ruby_block": "2024-02-26 19:05:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_chains": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-02-26 19:49:32 +0100"
+    },
+    "done": true
+  },
+  "betternether:ruby_gear": {
+    "criteria": {
+      "nether_ruby_EquipmentSlot[name\u003dchestplate, category\u003dCOMBAT]": "2024-02-26 19:38:19 +0100"
+    },
+    "done": false
+  },
+  "betternether:recipes/tools/nether_ruby_chestplate": {
+    "criteria": {
+      "has_nether_ruby": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-02-26 19:49:32 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/nether_ruby_from_block": {
+    "criteria": {
+      "has_nether_ruby_block": "2024-02-26 19:05:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_ruby_block": {
+    "criteria": {
+      "has_nether_ruby": "2024-02-26 19:06:53 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_lantern": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_ruby_block_nether_ruby_slab": {
+    "criteria": {
+      "has_nether_ruby_block": "2024-02-26 19:05:51 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_shears": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pot": {
+    "criteria": {
+      "has_cincinnasite_ingot": "2024-02-26 19:05:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-02-26 19:55:45 +0100"
     },
     "done": true
   },
