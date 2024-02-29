@@ -11311,5 +11311,287 @@
     },
     "done": true
   },
+  "ecologics:recipes/ecologics/walnut_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_button": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_stairs": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_sign": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_slab": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_door": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_fence": {
+    "criteria": {
+      "has_planks": "2024-02-28 17:56:32 +0100"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2024-02-28 18:08:12 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "createdeco:recipes/building_blocks/umber_bricks": {
+    "criteria": {
+      "has_item": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_bricks_stairs_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/palettes/scorchia": {
+    "criteria": {
+      "has_item": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_tile_stairs_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_tile": {
+    "criteria": {
+      "has_blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_tile_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_bricks_slab_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/food/stalagnate_bowl_wart": {
+    "criteria": {
+      "has_nether_wart": "2024-02-28 19:15:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2024-02-28 19:15:37 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_tile_small_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_bricks_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_rod_tiles_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2024-02-28 19:15:37 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/food/herbal_medicine": {
+    "criteria": {
+      "has_nether_wart": "2024-02-28 19:15:37 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_tile_slab_stonecutter": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-02-28 19:19:13 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/blue_obsidian_glass_smelting": {
+    "criteria": {
+      "has_block.betternether.blue_obsidian": "2024-02-28 19:25:22 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
