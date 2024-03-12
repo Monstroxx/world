@@ -11085,12 +11085,6 @@
     },
     "done": true
   },
-  "betternether:recipes/decorations/nether_mushroom_composter": {
-    "criteria": {
-      "has_nether_mushroom_slab": "2024-03-10 13:17:11 +0100"
-    },
-    "done": true
-  },
   "betternether:recipes/building_blocks/bone_block_bone_stairs": {
     "criteria": {
       "has_bone_block": "2024-03-10 13:07:30 +0100"
@@ -11109,12 +11103,6 @@
     },
     "done": true
   },
-  "betternether:recipes/building_blocks/bone_tile": {
-    "criteria": {
-      "has_bone_slab": "2024-03-10 13:08:26 +0100"
-    },
-    "done": true
-  },
   "betternether:recipes/building_blocks/bone_wall_stonecutting": {
     "criteria": {
       "has_block.betternether.bone_block": "2024-03-10 13:07:30 +0100"
@@ -11130,6 +11118,24 @@
   "betternether:recipes/building_blocks/bone_stairs_stonecutting": {
     "criteria": {
       "has_block.betternether.bone_block": "2024-03-10 13:07:30 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_tile": {
+    "criteria": {
+      "has_bone_slab": "2024-03-10 13:08:26 +0100"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_mushroom_composter": {
+    "criteria": {
+      "has_nether_mushroom_slab": "2024-03-10 13:17:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-03-11 20:13:08 +0100"
     },
     "done": true
   },
